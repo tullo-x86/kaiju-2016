@@ -2,6 +2,12 @@
 
 This is the program that we will be running on the 2016 Kaiju Flambeaux Corps suits, pedalcart and flambeauxs.
 
+## Workflow
+
+tl;dr: Do your work in feature branches, then merge it into master. I imagine this is a pretty standard git workflow, but here it is summarised anyway:
+
+Once you've cloned the repository and gotten it working, create a new branch and make your changes there. You may push your branch to the repository every so often to make sure it's backed up. When your modifications are complete, do a `git pull`, check out the master branch, and merge your branch into it. When this is finished and master has your changes merged in, push master back to github (`git push origin master`).
+
 ## Getting started
 
 ### Prerequisite software
